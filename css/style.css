@@ -1,0 +1,42 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+
+.container-fluid {
+    margin-bottom: 10px;
+}
+
+.bg-image {
+    background: linear-gradient(0deg, rgba(177, 54, 226, 0.9) 0%, rgba(98, 40, 204, 0.9) 100%), url(../img/hero-bg.jpg);
+    background-size: cover;
+}
+
+.btn {
+    color: white;
+}
+
+h5,
+.sub-text,
+.nav-link,
+.header-text {
+    color: white;
+}
+
+.rounded-img {
+    width: 450px;
+    float: right;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
