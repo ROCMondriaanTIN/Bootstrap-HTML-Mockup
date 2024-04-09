@@ -3,6 +3,12 @@ body {
     color: #444444;
 }
 
+.wrapper {
+    display: grid;
+    grid-template-rows: [start] auto [end];
+    grid-template-columns: [start] 1fr [end];
+}
+
 .container-fluid {
     margin-bottom: 10px;
 }
@@ -31,6 +37,7 @@ h5,
 .active {
     text-decoration: underline;
 }
+
 
 
 
