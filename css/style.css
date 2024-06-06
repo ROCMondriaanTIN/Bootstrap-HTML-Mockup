@@ -358,7 +358,9 @@ a:hover {
     font-size: 20px;
   }
 
-
+.section-title{
+    text-align: center;
+}
   .services .icon-box {
     text-align: center;
     padding: 70px 20px 80px 20px;
@@ -421,7 +423,7 @@ a:hover {
   }
   
   .services .iconbox-blue:hover .icon i {
-    color: #fff;
+    color: #47aeff;
   }
 
   .services .iconbox-orange i {
@@ -429,7 +431,7 @@ a:hover {
   }
   
   .services .iconbox-orange:hover .icon i {
-    color: #fff;
+    color: #ffa76e;
   }
   
   .services .iconbox-pink i {
@@ -437,7 +439,7 @@ a:hover {
   }
   
   .services .iconbox-pink:hover .icon i {
-    color: #fff;
+    color: #e80368;
   }
 
   .services .iconbox-yellow i {
