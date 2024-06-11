@@ -87,7 +87,7 @@ a:hover {
   position: relative;
 }
 
-.navbar > ul > li {
+.navbar>ul>li {
   padding: 10px 0 10px 24px;
 }
 
@@ -106,7 +106,7 @@ a:hover {
   position: relative;
 }
 
-.navbar > ul > li > a:before {
+.navbar>ul>li>a:before {
   position: absolute;
   width: 100%;
   height: 2px;
@@ -119,7 +119,7 @@ a:hover {
 }
 
 .navbar a:hover:before,
-.navbar li:hover > a:before,
+.navbar li:hover>a:before,
 .navbar .active:before {
   visibility: visible;
   width: 100%;
@@ -128,7 +128,7 @@ a:hover {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover > a {
+.navbar li:hover>a {
   color: var(--navbar-link-hover-color);
 }
 
@@ -151,7 +151,7 @@ a:hover {
 }
 
 .navbar .getstarted:before,
-.navbar li:hover > .getstarted:before {
+.navbar li:hover>.getstarted:before {
   visibility: hidden;
 }
 
@@ -182,11 +182,11 @@ a:hover {
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover > a {
+.navbar .dropdown ul li:hover>a {
   color: var(--primary-color);
 }
 
-.navbar .dropdown:hover > ul {
+.navbar .dropdown:hover>ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -195,11 +195,9 @@ a:hover {
 .home {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(
-      45deg,
+  background: linear-gradient(45deg,
       var(--home-gradient-start) 0%,
-      var(--home-gradient-end) 100%
-    ),
+      var(--home-gradient-end) 100%),
     url("../img/hero-bg.jpg") center center no-repeat;
   background-size: cover;
 }
@@ -248,12 +246,12 @@ a:hover {
   padding: 20px;
 }
 
-.navbar > ul > li {
+.navbar>ul>li {
   padding: 10px 0 10px 24px;
   position: relative;
 }
 
-.navbar > ul > li > a:before {
+.navbar>ul>li>a:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -265,7 +263,7 @@ a:hover {
 }
 
 .navbar a:hover:before,
-.navbar li:hover > a:before,
+.navbar li:hover>a:before,
 .navbar .active:before {
   background-color: #fff;
 }
@@ -273,7 +271,7 @@ a:hover {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover > a {
+.navbar li:hover>a {
   color: var(--navbar-link-hover-color);
 }
 
@@ -336,11 +334,9 @@ a:hover {
 }
 
 .counts {
-  background: linear-gradient(
-      90deg,
+  background: linear-gradient(90deg,
       rgba(88, 70, 249, 0.5) 0%,
-      rgba(123, 39, 216, 0.5) 100%
-    ),
+      rgba(123, 39, 216, 0.5) 100%),
     url("../img/counts-bg.png") center center no-repeat;
   padding: 80px 0 60px 0;
 }
@@ -379,6 +375,7 @@ a:hover {
 .section-name {
   font-weight: bold;
 }
+
 .services .box {
   text-align: center;
   padding: 70px 20px 80px 20px;
@@ -660,11 +657,6 @@ a:hover {
   background: #5846f9;
 }
 
-.btnall{
+.btnall {
   background-color: #5846f9;
 }
-
-
-
-
-
